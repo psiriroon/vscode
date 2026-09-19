@@ -1,0 +1,100 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Psiriroon Light",
+	"type": "light",
+	"colors": {
+		"editor.background": "#FFFAF4",
+		"editor.foreground": "#0E1019",
+		"panel.background": "#FFFAF4",
+		"sideBar.background": "#FFFAF4",
+		"sideBar.foreground": "#2B2A33",
+		"statusBar.debuggingBackground": "#6D43A6",
+		"statusBar.debuggingForeground": "#DBCCE1",
+		"statusBar.noFolderBackground": "#FFFAF4",
+		"statusBar.noFolderForeground": "#2B2A33",
+		"editorLineNumber.foreground": "#52525A",
+		"editorLineNumber.activeForeground": "#0E1019",
+		"titleBar.activeBackground": "#FFFAF4",
+		"titleBar.activeForeground": "#2B2A33",
+		"titleBar.inactiveBackground": "#FFFAF4",
+		"titleBar.inactiveForeground": "#52525A",
+		"activityBar.background": "#FFFAF4",
+		"activityBar.foreground": "#2B2A33"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"background": "#02ADBD40",
+				"foreground": "#02ADBD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Normal",
+			"scope": [
+				"source",
+				"label",
+				"keyword",
+				"operator",
+				"namespace",
+				"special"
+			],
+			"settings": {
+				"foreground": "#0E1019"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation",
+				"tag"
+			],
+			"settings": {
+				"foreground": "#52525A",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#056DBC"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"meta.function"
+			],
+			"settings": {
+				"foreground": "#ECAE0A"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"meta.class",
+				"meta.type",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#6D43A6"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#6FB00D"
+			}
+		}
+	]
+}

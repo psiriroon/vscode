@@ -1,0 +1,35 @@
+{
+  "name": "psiriroon",
+  "description": "Vibrant theme with Argonaut heritage",
+  "displayName": "Psiriroon",
+  "version": "0.1.0",
+  "publisher": "William Kelso",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Psiriroon Light",
+        "uiTheme": "vs",
+        "path": "./themes/psiriroon-light.json"
+      },
+      {
+        "label": "Psiriroon Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/psiriroon-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psiriroon/vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psiriroon/vscode/issues"
+  }
+}
